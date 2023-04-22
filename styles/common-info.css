@@ -21,6 +21,7 @@
     background-position: center;
     min-width: 446px;
     min-height: 446px;
+    margin-right: 58px;
 }
 .common-info__text {
     width: 520px;
@@ -32,6 +33,5 @@
     color: var(--orange);
     font-weight: 600;
 }
-.common-info__vline {
-    border-left: solid 2px var(--orange);
-}
+
+

@@ -1,13 +1,28 @@
 .skills {
 }
 .skills__title {
-  color: var(--text-color);
-  text-align: center;
-  line-height: 46px;
-  font-weight: 600;
-  font-size: 36px;
-  padding: 0 124px;
+    color: var(--text-color);
+    text-align: center;
+    line-height: 46px;
+    font-weight: 600;
+    font-size: 36px;
+    padding: 0 124px;
 }
 .skills__title_orange {
-  color: var(--orange);
+    color: var(--orange);
+}
+.skills__table {
+    background-color: aqua;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+.skills__hard-skills {
+    background-color: azure;
+    width: 512px;
+}
+.skills__soft-skills {
+    background-color: blue;
+    width: 512px;
 }

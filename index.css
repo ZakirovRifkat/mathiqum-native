@@ -24,3 +24,6 @@ body {
     color: #ffffff;
     font-weight: 600;
 }
+.vline{
+    border-left: solid 2px var(--orange);
+}
