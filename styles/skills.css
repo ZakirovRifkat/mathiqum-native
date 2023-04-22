@@ -12,10 +12,10 @@
 .skills__title_orange {
     color: var(--orange);
 }
-.skills__table {
+.skills__container {
     background-color: var(--white-background);
     padding: 42px;
-    margin-top:70px;
+    margin-top: 70px;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -43,10 +43,22 @@
     font-size: 24px;
     padding-top: 32px;
     display: flex;
+    align-items: center;
 }
-.skills__list li > div {
+.skills__list li > span {
     color: var(--orange);
     font-size: 48px;
     line-height: 55px;
     margin-right: 26px;
+}
+.skills__more-info {
+    background-color: var(--orange);
+    margin-top: 42px;
+    border-radius: 20px;
+    color: var(--white);
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    padding: 36px 78px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }

@@ -1,9 +1,7 @@
+.common-info {
+}
 .common-info__title {
     font-size: 48px;
-}
-.common-info {
-    padding: 90px 0;
-    width: 100%;
 }
 .common-info__container {
     margin-top: 140px;
@@ -21,7 +19,7 @@
     background-position: center;
     min-width: 446px;
     min-height: 446px;
-    margin-right: 58px;
+    margin-right: 66px;
 }
 .common-info__text {
     width: 520px;
