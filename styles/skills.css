@@ -1,5 +1,6 @@
 .skills {
 }
+
 .skills__title {
     color: var(--text-color);
     text-align: center;
@@ -12,17 +13,40 @@
     color: var(--orange);
 }
 .skills__table {
-    background-color: aqua;
+    background-color: var(--white-background);
+    padding: 42px;
+    margin-top:70px;
     width: 100%;
-    height: 250px;
     display: flex;
     justify-content: space-between;
+    box-sizing: border-box;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 .skills__hard-skills {
-    background-color: azure;
+    /* background-color: azure; */
     width: 512px;
 }
 .skills__soft-skills {
-    background-color: blue;
+    /* background-color: blue; */
     width: 512px;
+}
+.skills__list {
+    list-style-type: none;
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+}
+.skills__list li {
+    line-height: 28px;
+    font-weight: 600;
+    font-size: 24px;
+    padding-top: 32px;
+    display: flex;
+}
+.skills__list li > div {
+    color: var(--orange);
+    font-size: 48px;
+    line-height: 55px;
+    margin-right: 26px;
 }
