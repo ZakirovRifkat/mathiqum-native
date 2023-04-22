@@ -1,0 +1,37 @@
+.common-info__title {
+    font-size: 48px;
+}
+.common-info {
+    padding: 90px 0;
+    width: 100%;
+}
+.common-info__container {
+    margin-top: 140px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    box-sizing: border-box;
+    padding: 0 44px 0 44px;
+}
+.common-info__img {
+    background-image: url(../assets/img.svg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    min-width: 446px;
+    min-height: 446px;
+}
+.common-info__text {
+    width: 520px;
+    font-size: 40px;
+    color: var(--text-color);
+    line-height: 50px;
+}
+.common-info__text_orange {
+    color: var(--orange);
+    font-weight: 600;
+}
+.common-info__vline {
+    border-left: solid 2px var(--orange);
+}

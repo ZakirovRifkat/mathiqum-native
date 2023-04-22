@@ -1,0 +1,26 @@
+:root {
+    --orange: #fd6407;
+    --white: #ffffff;
+    --text-color: rgba(0, 0, 0, 0.8);
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Ubunrtu", sans-serif;
+    background-image: url(assets/Backgound.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+.content-container {
+    width: 85vw;
+    display: flex;
+    flex-direction: column;
+}
+.title {
+    color: #ffffff;
+    font-weight: 600;
+}

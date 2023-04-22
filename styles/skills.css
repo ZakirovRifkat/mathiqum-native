@@ -1,0 +1,13 @@
+.skills {
+}
+.skills__title {
+  color: var(--text-color);
+  text-align: center;
+  line-height: 46px;
+  font-weight: 600;
+  font-size: 36px;
+  padding: 0 124px;
+}
+.skills__title_orange {
+  color: var(--orange);
+}
