@@ -13,10 +13,11 @@
     color: var(--orange);
 }
 .skills__сontainer {
+    margin-left: 62px;
+    margin-right: 62px;
     background-color: var(--white-background);
     padding: 42px;
     margin-top: 70px;
-    width: 100%;
     display: flex;
     justify-content: space-between;
     box-sizing: border-box;
