@@ -5,10 +5,10 @@
     color: var(--text-color);
 }
 .team__container {
-    padding: 20px 62px;
+    padding: 20px 0;
     display: flex;
-    justify-content: space-between;
-    gap: 20px;
+    justify-content: center;
+    gap: 200px;
     align-items: center;
 }
 .team__list {
@@ -48,6 +48,8 @@
 }
 .team__fml-logo {
     background-image: url(../assets/239Logo.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 224px;
     width: 294px;
 }
@@ -55,4 +57,17 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+@media screen and (min-width: 1800px) {
+    .team__logos {
+        flex-direction: row;
+    }
+    .team__spbu-logo {
+        height: calc(264px * 1.2);
+        width: calc(264px * 1.2);
+    }
+    .team__fml-logo {
+        height: calc(224px * 1.2);
+        width: calc(294px * 1.2);
+    }
 }

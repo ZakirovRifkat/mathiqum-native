@@ -5,6 +5,7 @@
     padding: 35px 40px;
     margin: 62px;
     box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 .algorithm__title {
     font-size: 48px;
@@ -14,6 +15,7 @@
     border-collapse: collapse;
     font-weight: 400;
     line-height: 36px;
+    
 }
 .algorithm table td {
     border: solid 2px var(--white);
