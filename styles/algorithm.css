@@ -1,0 +1,42 @@
+.algorithm__container {
+    background-color: var(--orange);
+    color: var(--white);
+    border-radius: 20px;
+    padding: 35px 40px;
+    margin: 62px;
+    box-sizing: border-box;
+}
+.algorithm__title {
+    font-size: 48px;
+    color: var(--text-color);
+    font-weight: 600;
+}
+.algorithm table {
+    border-collapse: collapse;
+}
+.algorithm table td {
+    border: solid 2px var(--white);
+    vertical-align: middle;
+    text-align: center;
+}
+
+.algorithm table tr td:first-child {
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    font-size: 40px;
+    font-weight: 400;
+    padding: 0 26px;
+    box-sizing: border-box;
+}
+.algorithm table tr td:last-child {
+    border-right: none;
+    border-top: none;
+    font-size: 24px;
+    padding: 24px 30px;
+    font-weight: 400;
+}
+
+.algorithm table tr:last-child td {
+    border-bottom: none;
+}
