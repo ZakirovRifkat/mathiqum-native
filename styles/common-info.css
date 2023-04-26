@@ -25,6 +25,7 @@
     font-size: 40px;
     color: var(--text-color);
     line-height: 50px;
+    font-weight: 400;
 }
 .common-info__text_orange {
     color: var(--orange);

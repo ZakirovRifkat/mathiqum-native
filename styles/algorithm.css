@@ -9,10 +9,11 @@
 .algorithm__title {
     font-size: 48px;
     color: var(--text-color);
-    font-weight: 600;
 }
 .algorithm table {
     border-collapse: collapse;
+    font-weight: 400;
+    line-height: 36px;
 }
 .algorithm table td {
     border: solid 2px var(--white);
@@ -25,7 +26,6 @@
     border-top: none;
     border-right: none;
     font-size: 40px;
-    font-weight: 400;
     padding: 0 26px;
     box-sizing: border-box;
 }
@@ -34,7 +34,6 @@
     border-top: none;
     font-size: 24px;
     padding: 24px 30px;
-    font-weight: 500;
 }
 
 .algorithm table tr:last-child td {

@@ -3,7 +3,6 @@
 .team__title {
     font-size: 48px;
     color: var(--text-color);
-    font-weight: 600;
 }
 .team__container {
     padding: 20px 62px;
@@ -27,7 +26,6 @@
     align-items: center;
     font-size: 28px;
     line-height: 36px;
-    font-weight: 600;
     padding-top: 32px;
 }
 .team__list ul > li > span {

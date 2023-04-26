@@ -1,7 +1,6 @@
 .location__title {
     font-size: 48px;
     color: var(--text-color);
-    font-weight: 600;
 }
 .location__container {
     display: flex;
@@ -18,8 +17,6 @@
     padding: 20px 40px;
     font-size: 32px;
     line-height: 41px;
-    font-weight: 600;
-    width: 600pxk;
     color: var(--text-color);
 }
 .location__map iframe {
