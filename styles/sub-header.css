@@ -20,7 +20,6 @@
 }
 .sub-header__nabvar a {
     color: var(--white);
-    /* width: 242px; */
     text-align: center;
     text-decoration: none;
     font-size: 24px;

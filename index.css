@@ -4,6 +4,9 @@
     --text-color: rgba(0, 0, 0, 0.8);
     --white-background: rgba(255, 255, 255, 0.8);
 }
+html{
+    scroll-behavior: smooth;
+}
 body {
     margin: 0;
     padding: 0;
@@ -12,6 +15,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     font-weight: 500;
+
 }
 .container {
     display: flex;
@@ -23,6 +27,7 @@ body {
     flex-direction: column;
     margin-top: 95px;
     gap: 120px;
+
 }
 .title {
     color: #ffffff;
@@ -47,7 +52,6 @@ body {
 }
 
 .online-school {
-    font-family: "Ubuntu";
     font-style: normal;
     line-height: 55px;
     font-size: 48px;
